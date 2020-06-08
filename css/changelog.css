@@ -1,0 +1,24 @@
+body{
+    background: lightgreen;
+}
+
+.updateBox{
+    margin: 0 auto;
+    text-align: center;
+    width: 70vw;
+    height: auto;
+    background: green;
+}
+
+.updateBox p{
+    font-family: "Montserrat", sans-serif, serif;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.updateBox img{
+    padding-top: 20px;
+    width: 70%;
+}

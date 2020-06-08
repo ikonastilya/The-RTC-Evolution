@@ -1,0 +1,388 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    color: #333;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: lightgreen;
+    background-size: cover;
+}
+
+.intro_inner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.intro_title{
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 150px;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    padding-bottom: 50px;
+}
+
+.header{
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 2em;
+}
+
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 2em;
+}
+
+.nav_link{
+    font-family: "Montserrat", sans-serif, serif;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.button{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #008000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;;
+    
+    border: 1.5px solid white;
+    
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    transition: 0.3s linear;
+}
+
+.button:hover{
+    background-color: #33ff33
+}
+
+.reviews {
+    overflow: hidden;
+    background-color: #008000;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__photo {
+    width: 55%;
+    height: 500px;
+    position: relative;
+}
+
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    padding-left: 80px;
+}
+
+.reviews__text {
+    margin-bottom: 25px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.reviews__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.but-img{
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;;
+    
+    margin-left: 15%;
+    margin-bottom: 30px;
+    
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    transition: 0.3s linear;
+}
+.but-img:hover{
+    background-color: #33ff33;
+}
+
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+    font-weight: 300;
+}
+
+.download__text {
+    margin-bottom: 60px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn
+{
+    padding: 14px 40px;
+    background-color: #008000;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:  0.2s linear;  
+}
+
+.btn {
+    display: block;
+    width: 20vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.update{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    width: 100%;
+    background-color: lightgreen;
+    padding-bottom: 100px;
+    
+}
+
+.upd-text{
+     text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.upd-img{
+    display: block;
+    text-align: center;
+    
+}
+
+.description{
+    background-color: lightgreen; 
+    padding-bottom: 100px;
+}
+
+.description img {
+    display: block;
+    margin: 0 auto;
+}
+
+.upButton{
+    background-color: lightgreen; 
+    padding-left: 20px;
+}
+
+.long-desc{
+    width: 70vw;
+    height: auto;
+    background: green;
+    display: block;
+    margin: 0 auto;
+}
+
+.long-desc p{
+    text-align: center;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 36px;
+}
+
+.desc-title{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Montserrat', cursive;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer {
+    background-color: #008000;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+
+.footer__block {
+    width: 50%;
+    padding: 0 15px;
+
+    text-align: center;
+}
+
+.footer__title {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer__address {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+}
+
+.copyright {
+    padding: 20px 0;
+
+    background-color: #013220;
+}
+
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #808080;
+}
+
+.copyright__text span {
+    color: #fff;
+}
+
+.images{
+    width: 480px;
+    height: 270px;
+    alignment: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+imageonboard:hover:after {
+    opacity: 1;
+}
+imageonboard:leave
+{
+    background-color: rgba(0,0,0,0);
+}
+.imageonboard{
+    width: 960px;
+    height: 540px;
+    margin-top: 40px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.ImgBoard
+{
+    width:1100px;
+    height: 620px;
+    horiz-align: center;
+   /* background-color: black;*/
+    margin-top: 50px;
+    margin-left: 450px;
+    background: rgba(0,0,0,.5);
+}
+.imgboardholder
+{
+    background-color: rgba(0,0,0,.10);
+    align-content: center;
+}

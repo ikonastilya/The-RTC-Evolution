@@ -1,0 +1,11 @@
+body{
+    background: lightgreen;
+}
+
+.gallery-wrapper{
+    margin: 0 auto; 
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: lightgreen;
+}

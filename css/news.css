@@ -1,0 +1,18 @@
+.newsBlock{
+margin: 0 auto;
+text-align: center;
+width: 70vw;
+height: auto;
+background: green;
+}
+
+.newsBlock p{
+    font-family: "Montserrat", sans-serif, serif;
+    color: white;
+    padding: 0.5em;
+    font-size: 24px;
+}
+
+body{
+    background: lightgreen;
+}

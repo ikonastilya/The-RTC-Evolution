@@ -1,0 +1,50 @@
+body{
+    background: lightgreen;
+}
+
+.about_us{
+font-size: 3em; 
+font-family: 'Cinzel Decorative', cursive; 
+margin: 0 auto;
+text-align: center;
+width: 60vw;
+height: auto;
+background: green;
+}
+
+.about_us h1, p{
+    color: white;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.about_us p{
+    font-family: "Montserrat", sans-serif, serif;
+}
+
+.socialMedia{
+    background: url("../img/stone.jpg");
+    margin: 0 auto;
+    display: block;
+    width: 60vw;
+    height: auto;
+}
+
+.socialMedia img{
+    width: 100px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.socialMedia h1{
+    color: white;
+    font-family: "Montserrat", sans-serif, serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.socialMedia h1{
+    margin: 0 auto;
+    text-align: center;
+}
